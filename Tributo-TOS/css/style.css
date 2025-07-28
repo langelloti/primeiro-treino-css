@@ -40,10 +40,39 @@ html{
     font-size: 30px;
     text-align: center;
     font-weight: bold; 
+    padding-top: 10px;
 }
 .signature{
     text-align: left;
-    font-weight: 50px;
+    font-weight: lighter;
     font-size: 20px;
     font-style: italic;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
+.curiosities-container{
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    padding: 25px 0;
+    margin: 25px 0;
+    text-align: left;
+}
+.curiosities-container li{
+    height: 30px;
+}
+.quotes-container blockquote{
+    text-align: left;
+    padding: 30px;
+}
+.quotes-container p{
+    padding: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.img-bold{
+    text-align: center;
+    font-size: 18px;
+}
+
